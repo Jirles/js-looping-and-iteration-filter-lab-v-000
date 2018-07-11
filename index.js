@@ -12,6 +12,6 @@ function matchName(collection, name) {
   const result = [];
   for (const obj of collection){
 
-  }
-  return collection.filter(driver => driver === name);
+  };
+  return result;
 };
