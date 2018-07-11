@@ -1,11 +1,9 @@
 // Code your solution in this file
 function findMatching(collection, name){
-  const capitalizedName = name[0].toUpperCase() + name.slice(1);
-  const lowerCaseName = name.toLowerCase();
 
-  return collection.filter(name => name === capitalizedName || name ===lowerCaseName );
+  return collection.filter(driver => driver === name || name ===lowerCaseName );
 };
 
-function fuzzyMatch(letters){
-  
+function fuzzyMatch(collection, letters){
+  const
 };
