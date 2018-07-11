@@ -5,5 +5,5 @@ function findMatching(collection, name) {
 };
 
 function fuzzyMatch(collection, letters){
-  return collection.filter(driver => driver.slice(0, letter.length) === letters);
+  return collection.filter(driver => driver.slice(0, letters.length) === letters);
 };
