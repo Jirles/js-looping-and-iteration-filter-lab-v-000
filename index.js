@@ -5,3 +5,7 @@ function findMatching(collection, name){
 
   return collection.filter(name => name === capitalizedName || name ===lowerCaseName );
 };
+
+function fuzzyMatch(){
+
+};
