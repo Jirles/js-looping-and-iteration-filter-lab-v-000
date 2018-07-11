@@ -2,5 +2,5 @@
 function findMatching(collection, name){
   const newName = name[0].toUpperCase() + name.slice(1)
 
-  return newCollection.filter(name => name === newName );
+  return collection.filter(name => name === newName );
 };
