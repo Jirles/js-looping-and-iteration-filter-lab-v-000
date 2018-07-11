@@ -11,7 +11,9 @@ function fuzzyMatch(collection, letters){
 function matchName(collection, name) {
   const result = [];
   for (const driver of collection){
-    ? result.push(driver.name) : continue;
+    if (driver.name === name) {
+      result.push(driver);
+    };
   };
   return result;
 };
