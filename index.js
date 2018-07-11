@@ -10,8 +10,8 @@ function fuzzyMatch(collection, letters){
 
 function matchName(collection, name) {
   const result = [];
-  for (const obj of collection){
-    
+  for (const driver of collection){
+    ? result.push(driver.name) : continue;
   };
   return result;
 };
