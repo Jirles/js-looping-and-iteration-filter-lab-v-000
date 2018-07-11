@@ -5,5 +5,5 @@ function findMatching(collection, name){
   for (const name of collection) {
     newCollection.push(name.toLowerCase())
   };
-  return newCollection.filter(function(newName) { name => name === newName  })
+  return newCollection.filter(name => name === newName );
 };
