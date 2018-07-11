@@ -7,5 +7,5 @@ function findMatching(collection, name){
 };
 
 function fuzzyMatch(letters){
-  [];
+  
 };
