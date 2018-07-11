@@ -9,11 +9,5 @@ function fuzzyMatch(collection, letters){
 };
 
 function matchName(collection, name) {
-  const result = [];
-  for (const driver of collection){
-    if (driver.name === name) {
-      result.push(driver);
-    };
-  };
-  return result;
+  return collection.filter(driver => driver.name === name);
 };
